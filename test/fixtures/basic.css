@@ -1,0 +1,16 @@
+.photo-1, .photo-cayoosh {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/0/06/Cayoosh-creek.jpg);
+	filter: infrared(-60);
+	height: 426px;
+	position: relative;
+	width: 568px;
+}
+
+.photo-2, .photo-creek {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/06/Cayoosh-creek.jpg);
+	background-size: cover;
+	filter: infrared(-60);
+	height: 426px;
+	position: relative;
+	width: 568px;
+}

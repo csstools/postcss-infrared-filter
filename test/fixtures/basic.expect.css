@@ -1,0 +1,37 @@
+.photo-1::after, .photo-cayoosh::after {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/0/06/Cayoosh-creek.jpg);
+	content: "";
+	display: block;
+	filter: invert(1) saturate(.75) hue-rotate(-60deg);
+	height: 100%;
+	mix-blend-mode: color;
+	position: absolute;
+	width: 100%;
+}
+
+.photo-1, .photo-cayoosh {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/0/06/Cayoosh-creek.jpg);
+	height: 426px;
+	position: relative;
+	width: 568px;
+}
+
+.photo-2::after, .photo-creek::after {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/06/Cayoosh-creek.jpg);
+	background-size: cover;
+	content: "";
+	display: block;
+	filter: invert(1) saturate(.75) hue-rotate(-60deg);
+	height: 100%;
+	mix-blend-mode: color;
+	position: absolute;
+	width: 100%;
+}
+
+.photo-2, .photo-creek {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/06/Cayoosh-creek.jpg);
+	background-size: cover;
+	height: 426px;
+	position: relative;
+	width: 568px;
+}

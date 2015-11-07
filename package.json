@@ -1,0 +1,52 @@
+{
+  "name": "postcss-infrared-filter",
+  "version": "1.0.0",
+  "description": "Use an infrared photo effect in CSS",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "infrareds",
+    "filters",
+    "images",
+    "backgrounds",
+    "photos",
+    "photography",
+    "blends",
+    "colors",
+    "hues",
+    "inverts",
+    "inversions",
+    "manipulations"
+  ],
+  "author": "Jonathan Neal <jonathantneal@hotmail.com> (http://jonneal.com)",
+  "contributors": [
+	  "Una Kravets <una.kravets@gmail.com> (http://una.im)"
+	],
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathantneal/postcss-infrared-filter.git"
+  },
+  "homepage": "https://github.com/jonathantneal/postcss-infrared-filter",
+  "bugs": {
+    "url": "https://github.com/jonathantneal/postcss-infrared-filter/issues"
+  },
+  "dependencies": {
+		"postcss": "^5.0.11"
+	},
+  "devDependencies": {
+    "eslint": "^1.9.0",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.2"
+  },
+  "scripts": {
+    "lint": "eslint . --ignore-path .gitignore",
+    "tape": "tape test/*.js | tap-spec",
+    "test": "npm run lint && npm run tape"
+  },
+  "engines": {
+    "iojs": ">=2.0.0",
+    "node": ">=0.12.0"
+  }
+}
